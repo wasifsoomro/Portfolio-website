@@ -1,0 +1,110 @@
+/* Skills.module.css */
+
+.skillsSection {
+    background: linear-gradient(to bottom right, #1f4037, #99f2c8);
+    padding: 5rem 0;
+    text-align: center;
+    color: #faf9f6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 1.125rem;
+    margin-bottom: 3rem;
+  }
+  
+  .skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  .skillCard {
+    background-color: #2c3e50;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+  }
+  
+  .skillCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .iconImage {
+    width: 4rem;
+    height: 4rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+  }
+
+  .tailImage {
+    background-color: #3498db;
+  }
+
+  .htmlImage {
+    background-color: #3498db;
+  }
+
+  .cssImage {
+    background-color: #3498db;
+  }
+
+  .nodeImage {
+    background-color: #68a063;
+  }
+
+  .reactImage {
+    background-color: #61dafb;
+  }
+
+  .nextImage {
+    background-color: #f3f2f2;
+  }
+
+
+  .typeImage {
+    background-color: #007acc;
+  }
+
+  .javaImage {
+    background-color: #ffb400;
+  }
+  
+  .skillTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  /* Media queries */
+  @media (min-width: 768px) {
+    .skillsGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .skillsGrid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
