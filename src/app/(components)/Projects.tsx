@@ -23,7 +23,7 @@ const Projects = () => {
       title: "Resume Builder",
       description: 
         "A dynamic resume builder allowing users to create and download a resume by entering personal details.",
-      image: "/resume.png",
+      image: "/resume-builder.webp",
       link: "https://resume-milestone5.vercel.app/",
     },
   ];
